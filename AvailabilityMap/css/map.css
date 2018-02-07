@@ -1,0 +1,130 @@
+body {
+  margin: 0 0 0 15px;
+}
+
+#timestamp {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Segoe UI",Tahoma,Verdana,Arial,Sans-Serif;
+  font-size: 10pt;
+  text-align: center;
+  width: auto;
+}
+
+#lot-box {
+  left: 8px;
+  top: 26px;
+  z-index: 9001;
+  border-radius: 15px;
+  width: 300px;
+  height: 140px;
+  position: absolute;
+  bottom: 0;
+  border: solid 1px #00a0a5;
+  box-shadow: 0 0 5px 1px rgba(0,0,0,.2);
+  outline: none;
+  background-color: #fff;
+  color: #444;
+  font-family: "Segoe UI",Tahoma,Verdana,Arial,Sans-Serif;
+  font-size: 8pt;
+  overflow: hidden;
+  text-align: center;
+}
+
+#lot-box-header {
+  height: 30px;
+  border-bottom: 1px solid #00a0a5;
+  width: 100%;
+  cursor: move;
+  font-weight: 700;
+  text-transform: uppercase;
+  float: left;
+  font-size: 8pt;
+}
+
+#lot-box-title {
+  line-height: 30px;
+  display: inline;
+}
+
+#lot-box-close {
+  background: white;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  position: absolute;
+  outline: none;
+  background-color: transparent;
+  font-size: 19px;
+  float: right;
+  border-left: 1px solid #00a0a5;
+  right: 0;
+  top: 0;
+}
+
+.hidden {
+  visibility: hidden;
+  display: none;
+}
+
+.shown {
+  visibility: visible;
+  display: block;
+}
+
+#kbmap-wrapper {
+  overflow-x: scroll;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#section-button-wrapper {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  height: auto;
+}
+
+.section-button {
+  float: left;
+  width: 80px;
+  height: auto;
+  background-color: #00a0a5;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Arial";
+  text-align: center;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#section-button-full {
+  width: 280px;
+  margin-top: 5px;
+}
+
+#lot-box table {
+  width: 100%;
+}
+
+#lot-box td {
+  width: 50%;
+}
+
+#lot-box td:nth-child(1) {
+  text-align: right;
+}
+
+#lot-box td:nth-child(2) {
+  text-align: left;
+}
+
+#download-PDF {
+  display: inline;
+}
